@@ -82,15 +82,11 @@ a { color: inherit; text-decoration: none; }
 .card p { margin-top: 16px; color: var(--gray); font-size: 15px; }
 
 /* 大切にしていること */
-.values { margin-top: 80px; border-top: 1px solid var(--black); }
-.value {
-  display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 16px 48px;
-  padding: 40px 0; border-bottom: 1px solid var(--line);
-}
-.value dt { font-size: 20px; font-weight: 700; line-height: 1.6; }
-.value dd { color: var(--gray); }
+.column { margin-top: 64px; max-width: 40em; }
+.column p { font-size: 17px; line-height: 2.2; }
+.column p + p { margin-top: 1.6em; }
 
-/* 会社概要 */
+/* 概要 */
 .profile { margin-top: 40px; border-top: 1px solid var(--black); }
 .profile div {
   display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 8px 48px;
@@ -121,9 +117,8 @@ a { color: inherit; text-decoration: none; }
   .lead { margin-top: 40px; font-size: 16px; }
   .section { padding: 96px 0; }
   .cards { margin-top: 56px; grid-template-columns: minmax(0, 1fr); gap: 40px; }
-  .values { margin-top: 56px; }
-  .value, .profile div { grid-template-columns: minmax(0, 1fr); }
-  .value { padding: 32px 0; }
-  .profile div { padding: 20px 0; }
+  .column { margin-top: 48px; }
+  .column p { font-size: 16px; }
+  .profile div { grid-template-columns: minmax(0, 1fr); padding: 20px 0; }
   .button { display: block; text-align: center; padding: 20px 24px; }
 }
