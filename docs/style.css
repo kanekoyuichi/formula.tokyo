@@ -82,7 +82,7 @@ a { color: inherit; text-decoration: none; }
 .card p { margin-top: 16px; color: var(--gray); font-size: 15px; }
 
 /* 大切にしていること */
-.column { margin-top: 64px; max-width: 40em; }
+.column { margin-top: 80px; max-width: 40em; }
 .column p { font-size: 17px; line-height: 2.2; }
 .column p + p { margin-top: 1.6em; }
 
@@ -117,7 +117,7 @@ a { color: inherit; text-decoration: none; }
   .lead { margin-top: 40px; font-size: 16px; }
   .section { padding: 96px 0; }
   .cards { margin-top: 56px; grid-template-columns: minmax(0, 1fr); gap: 40px; }
-  .column { margin-top: 48px; }
+  .column { margin-top: 56px; }
   .column p { font-size: 16px; }
   .profile div { grid-template-columns: minmax(0, 1fr); padding: 20px 0; }
   .button { display: block; text-align: center; padding: 20px 24px; }
