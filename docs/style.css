@@ -87,7 +87,7 @@ a { color: inherit; text-decoration: none; }
 .column p + p { margin-top: 1.6em; }
 
 /* 概要 */
-.profile { margin-top: 40px; border-top: 1px solid var(--black); }
+.profile { margin-top: 80px; border-top: 1px solid var(--black); }
 .profile div {
   display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 8px 48px;
   padding: 28px 0; border-bottom: 1px solid var(--line);
@@ -117,7 +117,7 @@ a { color: inherit; text-decoration: none; }
   .lead { margin-top: 40px; font-size: 16px; }
   .section { padding: 96px 0; }
   .cards { margin-top: 56px; grid-template-columns: minmax(0, 1fr); gap: 40px; }
-  .column { margin-top: 56px; }
+  .column, .profile { margin-top: 56px; }
   .column p { font-size: 16px; }
   .profile div { grid-template-columns: minmax(0, 1fr); padding: 20px 0; }
   .button { display: block; text-align: center; padding: 20px 24px; }
